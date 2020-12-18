@@ -11,3 +11,6 @@ basic functionality:
 - add parameters
 - add input datasets
 - save outputs
+
+See the [DAFNI docs](https://docs.secure.dafni.rl.ac.uk/docs/how-to/models/how-to-create-a-dafni-ready-model/)
+for tutorial and reference documentation.
