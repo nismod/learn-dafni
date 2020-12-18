@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Run from image directory
+tag=$(basename `pwd`)
+echo "Saving $tag"
+
+sudo docker build -t $tag .
+sudo docker save $tag | gzip > $tag.tar.gz

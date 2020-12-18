@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo "in script"
+source activate testenv
+
+set -e
+set -x
+python /model.py

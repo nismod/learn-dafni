@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+sudo docker run \
+    --env MULTIPLE=5 \
+    --mount type=bind,source=~/projects/learn-dafni/read-write/data,target=/data \
+    read-write

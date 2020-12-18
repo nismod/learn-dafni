@@ -1,0 +1,10 @@
+kind: Model
+apiVersion: v1alpha3
+metadata:
+  displayName: Hello World
+  name: hello-world
+  type: Model
+  summary: A test model
+  description: Testing only.
+spec:
+  inputs: {}

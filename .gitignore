@@ -1,0 +1,5 @@
+# Model images
+*.tar.gz
+
+# Config
+.vscode

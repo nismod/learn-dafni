@@ -1,0 +1,20 @@
+kind: Model
+apiVersion: v1alpha3
+metadata:
+  displayName: Read and write
+  name: read-write
+  type: Model
+  summary: A test model
+  description: Testing only.
+spec:
+  inputs:
+    env:
+      - name: MULTIPLE
+        title: Multiple
+        desc: Multiply input by this value
+        type: integer
+        default: 0
+    datasets:
+      - uid: bb4f934a-b6f3-4f39-a65c-9cf912bf7a5a
+        versionUid: e2da0076-c6e7-4220-b0b8-1e5e7c8f913a
+        path: inputs/
